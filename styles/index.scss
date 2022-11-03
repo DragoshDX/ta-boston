@@ -14,6 +14,8 @@
 
 // reset
 @import './reset';
+// variables
+@import './variables';
 
 // common
 @import './common/index';
@@ -21,4 +23,5 @@
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
+  color: $gray-primary;
 }
