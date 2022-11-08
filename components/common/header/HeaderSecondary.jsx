@@ -29,6 +29,7 @@ export default function HeaderSecondary() {
         <ul>
           <li>
             <a href="tel:+0741123456" title="Call us">
+              <i className="fa-solid fa-phone"></i>
               Toll Free 1-877-666-1840
             </a>
           </li>
@@ -46,6 +47,7 @@ export default function HeaderSecondary() {
           <li>
             <Link href="/" title="Cart">
               <i className="fa-solid fa-cart-shopping"></i>
+              <span className="qty d-none d-lg-flex">3</span>
             </Link>
           </li>
 
