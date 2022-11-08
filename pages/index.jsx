@@ -13,6 +13,12 @@ export default function Home() {
           Button Primary Large
         </a>
       </div>
+      <div className="mt-5 pt-5">
+        <span className="badge">new entry</span>
+        <span className="badge badge-secondary">signed</span>
+        <span className="badge badge-large">%</span>
+        <span className="badge badge-large badge-secondary">%</span>
+      </div>
     </div>
   );
 }
