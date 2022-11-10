@@ -14,6 +14,8 @@
       'support';
 
     @include media-breakpoint-up(lg) {
+      padding-left: 12px;
+      padding-right: 12px;
       grid-template-columns: 1fr 2fr;
       grid-template-areas:
         'nav nav'
@@ -27,11 +29,21 @@
     row-gap: 43px;
     grid-area: nav;
 
+    @include media-breakpoint-up(lg) {
+      flex-wrap: nowrap;
+      column-gap: 110px;
+    }
+
     ul {
       flex-basis: 50%;
       display: flex;
       flex-direction: column;
       gap: 24px;
+
+      @include media-breakpoint-up(lg) {
+        flex-basis: auto;
+        gap: 4px;
+      }
     }
   }
 
