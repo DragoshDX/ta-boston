@@ -10,7 +10,7 @@ export default function Home() {
 
       <main className="content"></main>
 
-      <footer className="footer container">
+      <footer className="footer">
         <Footer></Footer>
       </footer>
     </div>

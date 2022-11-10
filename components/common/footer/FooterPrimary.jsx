@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function FooterPrimary() {
   return (
-    <>
+    <div className="container footer-primary-inner">
       <nav className="footer-nav">
         <ul>
           <li>
@@ -183,6 +183,6 @@ export default function FooterPrimary() {
           </li>
         </ul>
       </nav>
-    </>
+    </div>
   );
 }
