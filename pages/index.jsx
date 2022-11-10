@@ -1,3 +1,4 @@
+import Footer from '../components/common/footer/Footer';
 import Header from '../components/common/header/Header';
 
 export default function Home() {
@@ -9,7 +10,9 @@ export default function Home() {
 
       <main className="content"></main>
 
-      <footer className="footer"></footer>
+      <footer className="footer container">
+        <Footer></Footer>
+      </footer>
     </div>
   );
 }
