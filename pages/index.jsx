@@ -1,5 +1,6 @@
 import Footer from '../components/common/footer/Footer';
 import Header from '../components/common/header/Header';
+import HomeNewsletter from '../components/homepage/HomeNewsletter';
 import HomePayment from '../components/homepage/HomePayment';
 
 export default function Home() {
@@ -10,8 +11,10 @@ export default function Home() {
       </header>
 
       <main className="content">
-        <div className="content-main container">
+        <div className="content-main">
           <HomePayment></HomePayment>
+
+          <HomeNewsletter></HomeNewsletter>
         </div>
       </main>
 
