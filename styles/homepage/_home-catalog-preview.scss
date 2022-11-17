@@ -53,4 +53,15 @@
       }
     }
   }
+
+  // v3 of layout grid
+  &:nth-child(3) {
+    .product-tiles {
+      @include media-breakpoint-up(lg) {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        gap: 8.8419405%;
+      }
+    }
+  }
 }
