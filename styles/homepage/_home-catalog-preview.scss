@@ -38,4 +38,19 @@
       }
     }
   }
+
+  // v2 of layout flex
+  &:nth-child(2) {
+    .product-tiles {
+      @include media-breakpoint-up(lg) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        & > li {
+          width: 27.386541%;
+        }
+      }
+    }
+  }
 }
