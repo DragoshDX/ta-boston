@@ -9,7 +9,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div>
-      <header className="header container mt-lg-5 mb-3">
+      <header className="header container mt-lg-5 mb-lg-3">
         <Header></Header>
       </header>
 
